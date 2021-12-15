@@ -16,7 +16,6 @@ class Player extends GameObject {
       this.velocity += 0.2;
     }
 
-    // As allows you to cast a float to an integer.
     this.position.y += this.velocity;
     if (this.position.y < 0.0) {
       this.position.y = 0.0;
